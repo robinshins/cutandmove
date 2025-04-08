@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,5 +29,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  return (
+    <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-D97XNJ7HQL"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-D97XNJ7HQL');
+        `}
+      </Script>
+      {children}
+    </>
+  );
 }
