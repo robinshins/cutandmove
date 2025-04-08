@@ -439,7 +439,6 @@ const metadataByLocale: Record<string, Metadata> = {
 };
 
 // 기본 메타데이터
-// export const metadata: Metadata = metadataByLocale.ko;
 
 export async function generateStaticParams() {
   return locales.map(locale => ({ locale }));
