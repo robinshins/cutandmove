@@ -439,16 +439,16 @@ const metadataByLocale: Record<string, Metadata> = {
 };
 
 // 기본 메타데이터
-export const metadata: Metadata = metadataByLocale.ko;
+// export const metadata: Metadata = metadataByLocale.ko;
 
 export async function generateStaticParams() {
   return locales.map(locale => ({ locale }));
 }
 
 // 메타데이터 생성 함수
-export async function generateMetadata({ params }: { params: { locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   // params를 비동기적으로 처리합니다
-  const resolvedParams = await Promise.resolve(params);
+  const resolvedParams = await params;
   const locale = resolvedParams.locale;
   
   // 해당 언어의 메타데이터 반환 (없으면 기본 메타데이터 반환)
@@ -460,10 +460,10 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: any;
+  params: Promise<{ locale: string }>;
 }) {
   // params를 비동기적으로 처리합니다
-  const resolvedParams = await Promise.resolve(params);
+  const resolvedParams = await params;
   const locale = resolvedParams.locale;
   
   // 유효한 로케일인지 확인
