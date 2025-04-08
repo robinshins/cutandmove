@@ -1,0 +1,58 @@
+{
+  "title": "Schneiden und Bewegen",
+  "app": {
+    "title": "Schneiden und Bewegen",
+    "description": "Erkennt Frame-für-Frame-Charaktere aus Bildern mit transparentem Hintergrund, um GIFs zu erstellen.",
+    "originalExample": "Originalbild",
+    "generatedExample": "Generiertes GIF",
+    "prompt": "Prompt",
+    "generationTool": "Generierungswerkzeug",
+    "process": "Prozess",
+    "processDescription": "Lade ein Bild mit Charakteren hoch, und es erkennt automatisch Objekte und wandelt sie in Animationsframes um.",
+    "fileSelect": "Bild hochladen",
+    "directUpload": "Direktes Hochladen",
+    "uploadHint": "Lade ein Bild mit Frame-für-Frame-Charakteren hoch.",
+    "originalImage": "Originalbild",
+    "settings": "Einstellungen",
+    "backgroundThreshold": "Hintergrund-Schwellenwert",
+    "frameRate": "Bildrate",
+    "fps": "fps",
+    "animationPreview": "Animationsvorschau",
+    "frame": "Frame",
+    "play": "Abspielen",
+    "pause": "Pause",
+    "generatingGIF": "GIF wird generiert...",
+    "generateGIF": "GIF generieren",
+    "generatedGIF": "Generiertes GIF",
+    "downloadGIF": "GIF herunterladen"
+  },
+  "upload": {
+    "button": "Bild hochladen",
+    "dropzone": "Ziehe dein Bild hierher"
+  },
+  "actions": {
+    "play": "Abspielen",
+    "pause": "Pause",
+    "createGif": "GIF erstellen",
+    "download": "Herunterladen"
+  },
+  "options": {
+    "title": "Optionen",
+    "threshold": "Hintergrund-Schwellenwert",
+    "frameDelay": "Bildverzögerung (ms)"
+  },
+  "errors": {
+    "imageLoadError": "Fehler beim Laden des Bildes.",
+    "selectFile": "Bitte wähle eine Datei aus.",
+    "imageTypeOnly": "Bitte wähle nur Bilddateien aus.",
+    "canvasNotSupported": "Canvas wird nicht unterstützt.",
+    "noFramesGenerated": "Es wurden keine Frames generiert.",
+    "splittingError": "Fehler beim Teilen des Bildes.",
+    "gifCreationError": "Fehler beim Erstellen des GIFs.",
+    "noGIFtoDownload": "Kein GIF zum Herunterladen.",
+    "GIFdownloadError": "Fehler beim Herunterladen des GIFs.",
+    "noImageToAdjust": "Kein Bild zum Anpassen.",
+    "noObjectsFound": "Keine Objekte erkannt.",
+    "imageProcessError": "Fehler bei der Bildverarbeitung"
+  }
+} 

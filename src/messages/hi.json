@@ -1,0 +1,58 @@
+{
+  "title": "काट और चलाएं",
+  "app": {
+    "title": "काट और चलाएं",
+    "description": "पारदर्शी पृष्ठभूमि वाली छवियों से फ्रेम-दर-फ्रेम पात्रों को पहचानकर GIF बनाता है।",
+    "originalExample": "मूल छवि",
+    "generatedExample": "उत्पन्न GIF",
+    "prompt": "प्रॉम्प्ट",
+    "generationTool": "जनरेशन टूल",
+    "process": "प्रक्रिया",
+    "processDescription": "पात्रों वाली छवि अपलोड करें और यह स्वचालित रूप से वस्तुओं को पहचानकर उन्हें एनिमेशन फ्रेम में बदल देगा।",
+    "fileSelect": "छवि अपलोड करें",
+    "directUpload": "सीधा अपलोड",
+    "uploadHint": "फ्रेम-दर-फ्रेम पात्रों वाली छवि अपलोड करें।",
+    "originalImage": "मूल छवि",
+    "settings": "सेटिंग्स",
+    "backgroundThreshold": "पृष्ठभूमि थ्रेशोल्ड",
+    "frameRate": "फ्रेम दर",
+    "fps": "fps",
+    "animationPreview": "एनिमेशन पूर्वावलोकन",
+    "frame": "फ्रेम",
+    "play": "चलाएं",
+    "pause": "रोकें",
+    "generatingGIF": "GIF उत्पन्न कर रहा है...",
+    "generateGIF": "GIF उत्पन्न करें",
+    "generatedGIF": "उत्पन्न GIF",
+    "downloadGIF": "GIF डाउनलोड करें"
+  },
+  "upload": {
+    "button": "छवि अपलोड करें",
+    "dropzone": "अपनी छवि को यहां खींचें और छोड़ें"
+  },
+  "actions": {
+    "play": "चलाएं",
+    "pause": "रोकें",
+    "createGif": "GIF बनाएं",
+    "download": "डाउनलोड करें"
+  },
+  "options": {
+    "title": "विकल्प",
+    "threshold": "पृष्ठभूमि थ्रेशोल्ड",
+    "frameDelay": "फ्रेम विलंब (ms)"
+  },
+  "errors": {
+    "imageLoadError": "छवि लोड करने में त्रुटि।",
+    "selectFile": "कृपया फ़ाइल चुनें।",
+    "imageTypeOnly": "कृपया केवल छवि फ़ाइल चुनें।",
+    "canvasNotSupported": "कैनवास समर्थित नहीं है।",
+    "noFramesGenerated": "कोई फ्रेम नहीं बनाया गया।",
+    "splittingError": "छवि को विभाजित करने में त्रुटि।",
+    "gifCreationError": "GIF बनाने में त्रुटि।",
+    "noGIFtoDownload": "डाउनलोड करने के लिए कोई GIF नहीं है।",
+    "GIFdownloadError": "GIF डाउनलोड करने में त्रुटि।",
+    "noImageToAdjust": "समायोजित करने के लिए कोई छवि नहीं है।",
+    "noObjectsFound": "कोई वस्तु पहचानी नहीं गई।",
+    "imageProcessError": "छवि प्रोसेसिंग में त्रुटि"
+  }
+} 

@@ -1,0 +1,58 @@
+{
+  "title": "Couper et Déplacer",
+  "app": {
+    "title": "Couper et Déplacer",
+    "description": "Reconnaît les personnages image par image à partir d'images à fond transparent pour créer des GIF.",
+    "originalExample": "Image originale",
+    "generatedExample": "GIF généré",
+    "prompt": "Prompt",
+    "generationTool": "Outil de génération",
+    "process": "Processus",
+    "processDescription": "Téléchargez une image avec des personnages et elle reconnaîtra automatiquement les objets et les convertira en images d'animation.",
+    "fileSelect": "Télécharger une image",
+    "directUpload": "Téléchargement direct",
+    "uploadHint": "Téléchargez une image avec des personnages image par image.",
+    "originalImage": "Image originale",
+    "settings": "Paramètres",
+    "backgroundThreshold": "Seuil de fond",
+    "frameRate": "Fréquence d'images",
+    "fps": "fps",
+    "animationPreview": "Aperçu de l'animation",
+    "frame": "Image",
+    "play": "Lire",
+    "pause": "Pause",
+    "generatingGIF": "Génération du GIF...",
+    "generateGIF": "Générer un GIF",
+    "generatedGIF": "GIF généré",
+    "downloadGIF": "Télécharger le GIF"
+  },
+  "upload": {
+    "button": "Télécharger une image",
+    "dropzone": "Glissez et déposez votre image ici"
+  },
+  "actions": {
+    "play": "Lire",
+    "pause": "Pause",
+    "createGif": "Créer un GIF",
+    "download": "Télécharger"
+  },
+  "options": {
+    "title": "Options",
+    "threshold": "Seuil de fond",
+    "frameDelay": "Délai entre les images (ms)"
+  },
+  "errors": {
+    "imageLoadError": "Erreur lors du chargement de l'image.",
+    "selectFile": "Veuillez sélectionner un fichier.",
+    "imageTypeOnly": "Veuillez sélectionner uniquement un fichier image.",
+    "canvasNotSupported": "Canvas n'est pas pris en charge.",
+    "noFramesGenerated": "Aucune image n'a été générée.",
+    "splittingError": "Erreur lors de la division de l'image.",
+    "gifCreationError": "Erreur lors de la création du GIF.",
+    "noGIFtoDownload": "Aucun GIF à télécharger.",
+    "GIFdownloadError": "Erreur lors du téléchargement du GIF.",
+    "noImageToAdjust": "Aucune image à ajuster.",
+    "noObjectsFound": "Aucun objet reconnu.",
+    "imageProcessError": "Erreur lors du traitement de l'image"
+  }
+} 

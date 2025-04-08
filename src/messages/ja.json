@@ -1,0 +1,58 @@
+{
+  "title": "カット＆ムーブ",
+  "app": {
+    "title": "カット＆ムーブ",
+    "description": "透明な背景の画像からフレームごとのキャラクターを認識してGIFを生成します。",
+    "originalExample": "元画像",
+    "generatedExample": "生成されたGIF",
+    "prompt": "プロンプト",
+    "generationTool": "生成ツール",
+    "process": "処理プロセス",
+    "processDescription": "キャラクターがある画像をアップロードすると、自動的にオブジェクトを認識してアニメーションフレームに変換します。",
+    "fileSelect": "画像をアップロード",
+    "directUpload": "直接アップロード",
+    "uploadHint": "フレームごとにキャラクターが表示されている画像をアップロードしてください。",
+    "originalImage": "元画像",
+    "settings": "設定",
+    "backgroundThreshold": "背景しきい値",
+    "frameRate": "フレームレート",
+    "fps": "fps",
+    "animationPreview": "アニメーションプレビュー",
+    "frame": "フレーム",
+    "play": "再生",
+    "pause": "一時停止",
+    "generatingGIF": "GIF生成中...",
+    "generateGIF": "GIF生成",
+    "generatedGIF": "生成されたGIF",
+    "downloadGIF": "GIFをダウンロード"
+  },
+  "upload": {
+    "button": "画像をアップロード",
+    "dropzone": "ここに画像をドラッグ＆ドロップ"
+  },
+  "actions": {
+    "play": "再生",
+    "pause": "一時停止",
+    "createGif": "GIF作成",
+    "download": "ダウンロード"
+  },
+  "options": {
+    "title": "オプション",
+    "threshold": "背景しきい値",
+    "frameDelay": "フレーム遅延(ms)"
+  },
+  "errors": {
+    "imageLoadError": "画像の読み込み中にエラーが発生しました。",
+    "selectFile": "ファイルを選択してください。",
+    "imageTypeOnly": "画像ファイルのみを選択してください。",
+    "canvasNotSupported": "キャンバスがサポートされていません。",
+    "noFramesGenerated": "フレームが生成されませんでした。",
+    "splittingError": "画像の分割中にエラーが発生しました。",
+    "gifCreationError": "GIF作成中にエラーが発生しました。",
+    "noGIFtoDownload": "ダウンロードするGIFがありません。",
+    "GIFdownloadError": "GIFのダウンロード中にエラーが発生しました。",
+    "noImageToAdjust": "調整する画像がありません。",
+    "noObjectsFound": "認識されたオブジェクトがありません。",
+    "imageProcessError": "画像処理中にエラーが発生しました"
+  }
+} 

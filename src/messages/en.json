@@ -1,0 +1,59 @@
+{
+  "title": "Cut and Move",
+  "app": {
+    "title": "Cut and Move",
+    "description": "Recognize frame-by-frame characters from transparent background images to create GIFs.",
+    "originalExample": "Original Image",
+    "generatedExample": "Generated GIF",
+    "prompt": "Image Generation Prompt",
+    "generationTool": "Image Generation Tool",
+    "process": "Process",
+    "processDescription": "Upload an image with characters and it will automatically recognize objects and convert them into animation frames.",
+    "fileSelect": "Upload Image",
+    "directUpload": "Direct Upload",
+    "uploadHint": "Upload an image with frame-by-frame characters.",
+    "originalImage": "Original Image",
+    "settings": "Settings",
+    "backgroundThreshold": "Background Threshold",
+    "frameRate": "Frame Rate",
+    "fps": "fps",
+    "animationPreview": "Animation Preview",
+    "frame": "Frame",
+    "play": "Play",
+    "pause": "Pause",
+    "generatingGIF": "Generating GIF...",
+    "generateGIF": "Generate GIF",
+    "generatedGIF": "Generated GIF",
+    "downloadGIF": "Download GIF",
+    "example": "Example"
+  },
+  "upload": {
+    "button": "Upload Image",
+    "dropzone": "Drag and drop your image here"
+  },
+  "actions": {
+    "play": "Play",
+    "pause": "Pause",
+    "createGif": "Create GIF",
+    "download": "Download"
+  },
+  "options": {
+    "title": "Options",
+    "threshold": "Background Threshold",
+    "frameDelay": "Frame Delay (ms)"
+  },
+  "errors": {
+    "imageLoadError": "Error loading image.",
+    "selectFile": "Please select a file.",
+    "imageTypeOnly": "Please select an image file only.",
+    "canvasNotSupported": "Canvas is not supported.",
+    "noFramesGenerated": "No frames were generated.",
+    "splittingError": "Error splitting the image.",
+    "gifCreationError": "Error creating GIF.",
+    "noGIFtoDownload": "No GIF to download.",
+    "GIFdownloadError": "Error downloading GIF.",
+    "noImageToAdjust": "No image to adjust.",
+    "noObjectsFound": "No objects recognized.",
+    "imageProcessError": "Error processing image"
+  }
+} 

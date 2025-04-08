@@ -1,0 +1,58 @@
+{
+  "title": "ตัดและเคลื่อนไหว",
+  "app": {
+    "title": "ตัดและเคลื่อนไหว",
+    "description": "จดจำตัวละครแบบเฟรมต่อเฟรมจากภาพพื้นหลังโปร่งใสเพื่อสร้าง GIF",
+    "originalExample": "รูปภาพต้นฉบับ",
+    "generatedExample": "GIF ที่สร้างขึ้น",
+    "prompt": "พร้อมต์",
+    "generationTool": "เครื่องมือสร้าง",
+    "process": "กระบวนการ",
+    "processDescription": "อัปโหลดรูปภาพที่มีตัวละครและมันจะจดจำวัตถุโดยอัตโนมัติและแปลงเป็นเฟรมแอนิเมชัน",
+    "fileSelect": "อัปโหลดรูปภาพ",
+    "directUpload": "อัปโหลดโดยตรง",
+    "uploadHint": "อัปโหลดรูปภาพที่มีตัวละครแบบเฟรมต่อเฟรม",
+    "originalImage": "รูปภาพต้นฉบับ",
+    "settings": "การตั้งค่า",
+    "backgroundThreshold": "ค่าขีดแบ่งพื้นหลัง",
+    "frameRate": "อัตราเฟรม",
+    "fps": "fps",
+    "animationPreview": "ตัวอย่างแอนิเมชัน",
+    "frame": "เฟรม",
+    "play": "เล่น",
+    "pause": "หยุดชั่วคราว",
+    "generatingGIF": "กำลังสร้าง GIF...",
+    "generateGIF": "สร้าง GIF",
+    "generatedGIF": "GIF ที่สร้างขึ้น",
+    "downloadGIF": "ดาวน์โหลด GIF"
+  },
+  "upload": {
+    "button": "อัปโหลดรูปภาพ",
+    "dropzone": "ลากและวางรูปภาพของคุณที่นี่"
+  },
+  "actions": {
+    "play": "เล่น",
+    "pause": "หยุดชั่วคราว",
+    "createGif": "สร้าง GIF",
+    "download": "ดาวน์โหลด"
+  },
+  "options": {
+    "title": "ตัวเลือก",
+    "threshold": "ค่าขีดแบ่งพื้นหลัง",
+    "frameDelay": "ความล่าช้าของเฟรม (ms)"
+  },
+  "errors": {
+    "imageLoadError": "เกิดข้อผิดพลาดในการโหลดรูปภาพ",
+    "selectFile": "โปรดเลือกไฟล์",
+    "imageTypeOnly": "โปรดเลือกไฟล์รูปภาพเท่านั้น",
+    "canvasNotSupported": "ไม่รองรับ Canvas",
+    "noFramesGenerated": "ไม่มีการสร้างเฟรม",
+    "splittingError": "เกิดข้อผิดพลาดในการแบ่งรูปภาพ",
+    "gifCreationError": "เกิดข้อผิดพลาดในการสร้าง GIF",
+    "noGIFtoDownload": "ไม่มี GIF ให้ดาวน์โหลด",
+    "GIFdownloadError": "เกิดข้อผิดพลาดในการดาวน์โหลด GIF",
+    "noImageToAdjust": "ไม่มีรูปภาพที่จะปรับ",
+    "noObjectsFound": "ไม่พบวัตถุที่จดจำได้",
+    "imageProcessError": "เกิดข้อผิดพลาดในการประมวลผลรูปภาพ"
+  }
+} 

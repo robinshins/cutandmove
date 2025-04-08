@@ -1,0 +1,58 @@
+{
+  "title": "Cortar y Mover",
+  "app": {
+    "title": "Cortar y Mover",
+    "description": "Reconoce personajes cuadro por cuadro de imágenes con fondo transparente para crear GIFs.",
+    "originalExample": "Imagen original",
+    "generatedExample": "GIF generado",
+    "prompt": "Prompt",
+    "generationTool": "Herramienta de generación",
+    "process": "Proceso",
+    "processDescription": "Sube una imagen con personajes y automáticamente reconocerá objetos y los convertirá en fotogramas de animación.",
+    "fileSelect": "Subir imagen",
+    "directUpload": "Subida directa",
+    "uploadHint": "Sube una imagen con personajes cuadro por cuadro.",
+    "originalImage": "Imagen original",
+    "settings": "Configuración",
+    "backgroundThreshold": "Umbral de fondo",
+    "frameRate": "Velocidad de fotogramas",
+    "fps": "fps",
+    "animationPreview": "Vista previa de animación",
+    "frame": "Fotograma",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "generatingGIF": "Generando GIF...",
+    "generateGIF": "Generar GIF",
+    "generatedGIF": "GIF generado",
+    "downloadGIF": "Descargar GIF"
+  },
+  "upload": {
+    "button": "Subir imagen",
+    "dropzone": "Arrastra y suelta tu imagen aquí"
+  },
+  "actions": {
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "createGif": "Crear GIF",
+    "download": "Descargar"
+  },
+  "options": {
+    "title": "Opciones",
+    "threshold": "Umbral de fondo",
+    "frameDelay": "Retraso de fotograma (ms)"
+  },
+  "errors": {
+    "imageLoadError": "Error al cargar la imagen.",
+    "selectFile": "Por favor, selecciona un archivo.",
+    "imageTypeOnly": "Por favor, selecciona solo archivos de imagen.",
+    "canvasNotSupported": "Canvas no es compatible.",
+    "noFramesGenerated": "No se generaron fotogramas.",
+    "splittingError": "Error al dividir la imagen.",
+    "gifCreationError": "Error al crear el GIF.",
+    "noGIFtoDownload": "No hay GIF para descargar.",
+    "GIFdownloadError": "Error al descargar el GIF.",
+    "noImageToAdjust": "No hay imagen para ajustar.",
+    "noObjectsFound": "No se reconocieron objetos.",
+    "imageProcessError": "Error al procesar la imagen"
+  }
+} 

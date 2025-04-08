@@ -1,0 +1,58 @@
+{
+    "title": "Вырезать и Двигать",
+    "app": {
+      "title": "Вырезать и Двигать",
+      "description": "Распознавание покадровых персонажей из изображений с прозрачным фоном для создания GIF.",
+      "originalExample": "Оригинальное изображение",
+      "generatedExample": "Созданный GIF",
+      "prompt": "Подсказка",
+      "generationTool": "Инструмент генерации",
+      "process": "Процесс",
+      "processDescription": "Загрузите изображение с персонажами, и оно автоматически распознает объекты и преобразует их в кадры анимации.",
+      "fileSelect": "Загрузить изображение",
+      "directUpload": "Прямая загрузка",
+      "uploadHint": "Загрузите изображение с покадровыми персонажами.",
+      "originalImage": "Оригинальное изображение",
+      "settings": "Настройки",
+      "backgroundThreshold": "Порог фона",
+      "frameRate": "Частота кадров",
+      "fps": "кадр/с",
+      "animationPreview": "Предпросмотр анимации",
+      "frame": "Кадр",
+      "play": "Воспроизвести",
+      "pause": "Пауза",
+      "generatingGIF": "Создание GIF...",
+      "generateGIF": "Создать GIF",
+      "generatedGIF": "Созданный GIF",
+      "downloadGIF": "Скачать GIF"
+    },
+    "upload": {
+      "button": "Загрузить изображение",
+      "dropzone": "Перетащите изображение сюда"
+    },
+    "actions": {
+      "play": "Воспроизвести",
+      "pause": "Пауза",
+      "createGif": "Создать GIF",
+      "download": "Скачать"
+    },
+    "options": {
+      "title": "Параметры",
+      "threshold": "Порог фона",
+      "frameDelay": "Задержка кадра (мс)"
+    },
+    "errors": {
+      "imageLoadError": "Ошибка загрузки изображения.",
+      "selectFile": "Пожалуйста, выберите файл.",
+      "imageTypeOnly": "Пожалуйста, выберите только файл изображения.",
+      "canvasNotSupported": "Canvas не поддерживается.",
+      "noFramesGenerated": "Кадры не были созданы.",
+      "splittingError": "Ошибка разделения изображения.",
+      "gifCreationError": "Ошибка создания GIF.",
+      "noGIFtoDownload": "Нет GIF для скачивания.",
+      "GIFdownloadError": "Ошибка скачивания GIF.",
+      "noImageToAdjust": "Нет изображения для настройки.",
+      "noObjectsFound": "Объекты не распознаны.",
+      "imageProcessError": "Ошибка обработки изображения"
+    }
+  }

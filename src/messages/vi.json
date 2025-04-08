@@ -1,0 +1,58 @@
+{
+  "title": "Cắt và Di Chuyển",
+  "app": {
+    "title": "Cắt và Di Chuyển",
+    "description": "Nhận diện các nhân vật theo từng khung hình từ hình ảnh có nền trong suốt để tạo GIF.",
+    "originalExample": "Hình ảnh gốc",
+    "generatedExample": "GIF đã tạo",
+    "prompt": "Gợi ý",
+    "generationTool": "Công cụ tạo",
+    "process": "Quy trình",
+    "processDescription": "Tải lên hình ảnh có nhân vật và nó sẽ tự động nhận diện đối tượng và chuyển đổi thành các khung hình hoạt ảnh.",
+    "fileSelect": "Tải lên hình ảnh",
+    "directUpload": "Tải lên trực tiếp",
+    "uploadHint": "Tải lên hình ảnh có nhân vật theo từng khung hình.",
+    "originalImage": "Hình ảnh gốc",
+    "settings": "Cài đặt",
+    "backgroundThreshold": "Ngưỡng nền",
+    "frameRate": "Tốc độ khung hình",
+    "fps": "fps",
+    "animationPreview": "Xem trước hoạt ảnh",
+    "frame": "Khung hình",
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "generatingGIF": "Đang tạo GIF...",
+    "generateGIF": "Tạo GIF",
+    "generatedGIF": "GIF đã tạo",
+    "downloadGIF": "Tải xuống GIF"
+  },
+  "upload": {
+    "button": "Tải lên hình ảnh",
+    "dropzone": "Kéo và thả hình ảnh của bạn vào đây"
+  },
+  "actions": {
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "createGif": "Tạo GIF",
+    "download": "Tải xuống"
+  },
+  "options": {
+    "title": "Tùy chọn",
+    "threshold": "Ngưỡng nền",
+    "frameDelay": "Độ trễ khung hình (ms)"
+  },
+  "errors": {
+    "imageLoadError": "Lỗi khi tải hình ảnh.",
+    "selectFile": "Vui lòng chọn một tệp.",
+    "imageTypeOnly": "Vui lòng chỉ chọn tệp hình ảnh.",
+    "canvasNotSupported": "Canvas không được hỗ trợ.",
+    "noFramesGenerated": "Không có khung hình nào được tạo.",
+    "splittingError": "Lỗi khi chia hình ảnh.",
+    "gifCreationError": "Lỗi khi tạo GIF.",
+    "noGIFtoDownload": "Không có GIF để tải xuống.",
+    "GIFdownloadError": "Lỗi khi tải xuống GIF.",
+    "noImageToAdjust": "Không có hình ảnh để điều chỉnh.",
+    "noObjectsFound": "Không nhận diện được đối tượng.",
+    "imageProcessError": "Lỗi khi xử lý hình ảnh"
+  }
+} 

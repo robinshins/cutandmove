@@ -1,0 +1,59 @@
+{
+  "title": "Cut and Move",
+  "app": {
+    "title": "Cut and Move",
+    "description": "투명 배경의 이미지에서 프레임별 \n 캐릭터를 인식하여 GIF를 생성합니다.",
+    "originalExample": "원본 이미지",
+    "generatedExample": "생성된 GIF",
+    "prompt": "이미지 생성 프롬프트",
+    "generationTool": "이미지 생성 도구",
+    "process": "처리 과정",
+    "processDescription": "캐릭터가 있는 이미지를 업로드하면 자동으로 객체를 인식하고 애니메이션 프레임으로 변환합니다.",
+    "fileSelect": "이미지 업로드",
+    "directUpload": "직접 업로드",
+    "uploadHint": "프레임별 캐릭터가 나와있는 이미지를 업로드하세요.",
+    "originalImage": "원본 이미지",
+    "settings": "설정",
+    "backgroundThreshold": "배경 임계값",
+    "frameRate": "프레임 속도",
+    "fps": "fps",
+    "animationPreview": "애니메이션 미리보기",
+    "frame": "프레임",
+    "play": "재생",
+    "pause": "일시정지",
+    "generatingGIF": "GIF 생성 중...",
+    "generateGIF": "GIF 생성",
+    "generatedGIF": "생성된 GIF",
+    "downloadGIF": "GIF 다운로드",
+    "example": "예시"
+  },
+  "upload": {
+    "button": "이미지 업로드",
+    "dropzone": "이미지를 여기에 끌어다 놓으세요"
+  },
+  "actions": {
+    "play": "재생",
+    "pause": "일시정지",
+    "createGif": "GIF 생성",
+    "download": "다운로드"
+  },
+  "options": {
+    "title": "옵션",
+    "threshold": "배경 임계값",
+    "frameDelay": "프레임 지연(ms)"
+  },
+  "errors": {
+    "imageLoadError": "이미지를 불러오는 중 오류가 발생했습니다.",
+    "selectFile": "파일을 선택해 주세요.",
+    "imageTypeOnly": "이미지 파일만 선택해 주세요.",
+    "canvasNotSupported": "캔버스가 지원되지 않습니다.",
+    "noFramesGenerated": "생성된 프레임이 없습니다.",
+    "splittingError": "이미지 분할 중 오류가 발생했습니다.",
+    "gifCreationError": "GIF 생성 중 오류가 발생했습니다.",
+    "noGIFtoDownload": "다운로드할 GIF가 없습니다.",
+    "GIFdownloadError": "GIF 다운로드 중 오류가 발생했습니다.",
+    "noImageToAdjust": "조정할 이미지가 없습니다.",
+    "noObjectsFound": "인식된 객체가 없습니다.",
+    "imageProcessError": "이미지 처리 중 오류가 발생했습니다"
+  }
+} 

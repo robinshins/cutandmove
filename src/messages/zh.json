@@ -1,0 +1,58 @@
+{
+  "title": "剪切与移动",
+  "app": {
+    "title": "剪切与移动",
+    "description": "从透明背景图像中识别逐帧角色以创建GIF。",
+    "originalExample": "原始图像",
+    "generatedExample": "生成的GIF",
+    "prompt": "提示",
+    "generationTool": "生成工具",
+    "process": "处理过程",
+    "processDescription": "上传带有角色的图像，它将自动识别对象并将其转换为动画帧。",
+    "fileSelect": "上传图片",
+    "directUpload": "直接上传",
+    "uploadHint": "上传包含逐帧角色的图像。",
+    "originalImage": "原始图像",
+    "settings": "设置",
+    "backgroundThreshold": "背景阈值",
+    "frameRate": "帧率",
+    "fps": "fps",
+    "animationPreview": "动画预览",
+    "frame": "帧",
+    "play": "播放",
+    "pause": "暂停",
+    "generatingGIF": "生成GIF中...",
+    "generateGIF": "生成GIF",
+    "generatedGIF": "生成的GIF",
+    "downloadGIF": "下载GIF"
+  },
+  "upload": {
+    "button": "上传图片",
+    "dropzone": "将图片拖放到此处"
+  },
+  "actions": {
+    "play": "播放",
+    "pause": "暂停",
+    "createGif": "创建GIF",
+    "download": "下载"
+  },
+  "options": {
+    "title": "选项",
+    "threshold": "背景阈值",
+    "frameDelay": "帧延迟(ms)"
+  },
+  "errors": {
+    "imageLoadError": "加载图片时出错。",
+    "selectFile": "请选择文件。",
+    "imageTypeOnly": "请只选择图片文件。",
+    "canvasNotSupported": "不支持Canvas。",
+    "noFramesGenerated": "未生成帧。",
+    "splittingError": "分割图片时出错。",
+    "gifCreationError": "创建GIF时出错。",
+    "noGIFtoDownload": "没有可下载的GIF。",
+    "GIFdownloadError": "下载GIF时出错。",
+    "noImageToAdjust": "没有要调整的图像。",
+    "noObjectsFound": "未识别到对象。",
+    "imageProcessError": "处理图像时出错"
+  }
+} 
